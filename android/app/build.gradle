@@ -88,8 +88,8 @@ android {
 
     defaultConfig {
         applicationId "com.jindallae"
-        minSdkVersion 16
-        targetSdkVersion 22
+        minSdkVersion 18
+        targetSdkVersion 23
         versionCode 1
         versionName "1.0"
         ndk {
@@ -126,6 +126,7 @@ android {
 }
 
 dependencies {
+    compile project(':BundleBus-client')
     compile fileTree(dir: "libs", include: ["*.jar"])
     compile "com.android.support:appcompat-v7:23.0.1"
     compile "com.facebook.react:react-native:+"  // From node_modules

@@ -1,6 +1,7 @@
 package com.jindallae;
 
 import com.facebook.react.ReactActivity;
+import com.zenome.bundlebus.BundleBusPackage;
 
 public class MainActivity extends ReactActivity {
 
